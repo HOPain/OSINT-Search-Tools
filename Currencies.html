@@ -1,0 +1,287 @@
+<!doctype html>
+<html>
+<style>
+ul {list-style-type: none;margin: 0;padding: 0;width: 200px;background-color: #f1f1f1;}
+li a {display: block;color: #000;padding: 8px 16px;text-decoration: none;}
+li a:hover {background-color: #555;color: white;}
+li a.active {background-color: #303942;color: white;}
+li a.grey {background-color: #cdcdcd;color: black;}
+li a.blue {background-color: #b4c8da;color: black;}
+table td, table td * {vertical-align: top;}
+</style>
+<head>
+<meta charset="UTF-8">
+<title>HOPain Virtual Currencies Tool</title>
+</head>
+<body>
+<table width="1000" border="0">
+<tbody>
+<tr>
+<td width="200">
+<ul>
+<li><a href="index.html" class="grey">HOPain Tools</a></li>
+<li><a href="Search.html">Search Engines</a></li>
+<li><a href="Facebook.html">Facebook</a></li>
+<li><a href="Twitter.html">Twitter</a></li>
+<li><a href="Instagram.html">Instagram</a></li>
+<li><a href="LinkedIn.html">LinkedIn</a></li>
+<li><a href="Communities.html">Communities</a></li>
+<li><a href="Email.html">Email Addresses</a></li>
+<li><a href="Username.html">Usernames</a></li>
+<li><a href="Name.html">Names</a></li>
+<li><a href="Telephone.html">Telephone Numbers</a></li>
+<li><a href="Location.html">Maps</a></li>
+<li><a href="Documents.html">Documents</a></li>
+<li><a href="Pastes.html">Pastes</a></li>
+<li><a href="Images.html">Images</a></li>
+<li><a href="Videos.html">Videos</a></li>
+<li><a href="Domain.html">Domains</a></li>
+<li><a href="IP.html">IP Addresses</a></li>
+<li><a href="Business.html">Business & Government</a></li>
+<li><a href="Currencies.html" class="active">Virtual Currencies</a></li>
+<li><a href="Breaches.html">Data Breaches & Leaks</a></li>
+<li><a href="Credit.html" class="grey">Credit</a></li>
+</ul>
+</td>
+<td width="800">
+
+<script type="text/javascript">
+function doPopAll(PopAll)
+{var pop = document.getElementById("PopAll");
+for (j = 1; j <= 100; j++){
+if (j < 10){
+j = "0" + j.toString();}
+else {j = j.toString();}
+console.log(j)
+item = document.getElementById("Search" + j);
+if (item != null){
+item.value = pop.value;}}}
+</script>
+<form onsubmit="doPopAll(this.PopAll.value); return false;">
+<input type="text" id="PopAll" name="PopAll" size="30" placeholder="Bitcoin Address"/>
+<input type="submit" style="width:120px" value="Populate All" /><br /></form><br>
+
+<script type="text/javascript">
+function doSearch01(Search01)
+{window.open('http://codacoin.com/api/public.php?request=validate&address=' + Search01, 'Search01window');}
+</script>
+<form onsubmit="doSearch01(this.Search01.value); return false;">
+<input type="text" id="Search01" name="Search01" size="30" placeholder="Bitcoin Address" value="" />
+<input type="submit" style="width:120px" value="BTC Validation" /><br /></form>
+
+<script type="text/javascript">
+function doSearch02(Search02)
+{window.open('https://blockchain.info/q/24hrprice', 'Search02window');}
+</script>
+<form onsubmit="doSearch02(this.Search02.value); return false;">
+<input type="text" id="Search02" name="Search02" size="30" placeholder="Bitcoin Address" value="" />
+<input type="submit" style="width:120px" value="1 BTC Price" /><br /></form>
+
+<script type="text/javascript">
+function doSearch03(Search03)
+{window.open('https://blockchain.info/q/getreceivedbyaddress/' + Search03, 'Search03window');}
+
+</script>
+<form onsubmit="doSearch03(this.Search03.value); return false;">
+<input type="text" id="Search03" name="Search03" size="30" placeholder="Bitcoin Address" value="" />
+<input type="submit" style="width:120px" value="Satoshi Received" /><br /></form>
+
+<script type="text/javascript">
+function doSearch04(Search04)
+{window.open('https://blockchain.info/q/getsentbyaddress/' + Search04, 'Search04window');}
+</script>
+<form onsubmit="doSearch04(this.Search04.value); return false;">
+<input type="text" id="Search04" name="Search04" size="30" placeholder="Bitcoin Address" value="" />
+<input type="submit" style="width:120px" value="Satoshi Sent" /><br /></form>
+
+<script type="text/javascript">
+function doSearch05(Search05)
+{window.open('https://blockchain.info/q/addressbalance/' + Search05, 'Search05window');}
+</script>
+<form onsubmit="doSearch05(this.Search05.value); return false;">
+<input type="text" id="Search05" name="Search05" size="30" placeholder="Bitcoin Address" value="" />
+<input type="submit" style="width:120px" value="Satoshi Balance" /><br /></form>
+
+<script type="text/javascript">
+function doSearch06(Search06)
+{window.open('https://chain.api.btc.com/v3/address/' + Search06, 'Search06window');}
+</script>
+<form onsubmit="doSearch06(this.Search06.value); return false;">
+<input type="text" id="Search06" name="Search06" size="30" placeholder="Bitcoin Address" value="" />
+<input type="submit" style="width:120px" value="Summary" /><br /></form>
+
+<script type="text/javascript">
+function doSearch07(Search07)
+{window.open('https://blockchain.info/q/addressfirstseen/' + Search07, 'Search07window');}
+</script>
+<form onsubmit="doSearch07(this.Search07.value); return false;">
+<input type="text" id="Search07" name="Search07" size="30" placeholder="Bitcoin Address" value="" />
+<input type="submit" style="width:120px" value="Creation Date" /><br /></form>
+
+<script type="text/javascript">
+function doSearch08(Search08)
+{window.open('https://www.blockchain.com/btc/address/' + Search08, 'Search08hwindow');}
+</script>
+<form onsubmit="doSearch08(this.Search08.value); return false;">
+<input type="text" id="Search08" name="Search08" size="30" placeholder="Bitcoin Address" value="" />
+<input type="submit" style="width:120px" value="Blockchain" /><br /></form>
+
+<script type="text/javascript">
+function doSearch09(Search09)
+{window.open('https://www.bitcoinabuse.com/reports/' + Search09, 'Search09window');}
+</script>
+<form onsubmit="doSearch09(this.Search09.value); return false;">
+<input type="text" id="Search09" name="Search09" size="30" placeholder="Bitcoin Address" value="" />
+<input type="submit" style="width:120px" value="BitcoinAbuse" /><br /></form>
+
+<script type="text/javascript">
+function doSearch10(Search10)
+{window.open('https://bitcoinwhoswho.com/address/' + Search10, 'Search10window');}
+</script>
+<form onsubmit="doSearch10(this.Search10.value); return false;">
+<input type="text" id="Search10" name="Search10" size="30" placeholder="Bitcoin Address" value="" />
+<input type="submit" style="width:120px" value="BitcoinWhosWho" /><br /></form>
+
+<script type="text/javascript">
+function doSearch11(Search11)
+{window.open('https://oxt.me/address/' + Search11, 'Search11window');}
+</script>
+<form onsubmit="doSearch11(this.Search11.value); return false;">
+<input type="text" id="Search11" name="Search11" size="30" placeholder="Bitcoin Address" value="" />
+<input type="submit" style="width:120px" value="OXT" /><br /></form>
+
+<script type="text/javascript">
+function doSearch12(Search12)
+{window.open('https://www.walletexplorer.com/address/' + Search12, 'Search12window');}
+</script>
+<form onsubmit="doSearch12(this.Search12.value); return false;">
+<input type="text" id="Search12" name="Search12" size="30" placeholder="Bitcoin Address" value="" />
+<input type="submit" style="width:120px" value="WalletExplorer" /><br /></form>
+
+<script type="text/javascript">
+function doSearch13(Search13)
+{window.open('https://btc.com/' + Search13, 'Search13window');}
+</script>
+<form onsubmit="doSearch13(this.Search13.value); return false;">
+<input type="text" id="Search13" name="Search13" size="30" placeholder="Bitcoin Address" value="" />
+<input type="submit" style="width:120px" value="BTC" /><br /></form>
+
+<script type="text/javascript">
+function doSearch14(Search14)
+{window.open('https://blockchair.com/bitcoin/address/' + Search14, 'Search14window');}
+</script>
+<form onsubmit="doSearch14(this.Search14.value); return false;">
+<input type="text" id="Search14" name="Search14" size="30" placeholder="Bitcoin Address" value="" />
+<input type="submit" style="width:120px" value="BC BTC" /></form><br />
+
+<input type='text' placeholder='Unix Time' size="30" id='timestamp'>&nbsp;<input type='button' id='convert' style="width:120px" value='Date Conversion' onclick='convert();'>
+<br>
+<span id='datetime'></span>
+<script>function convert(){
+var unixtimestamp = document.getElementById('timestamp').value;
+var months_arr = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+var date = new Date(unixtimestamp*1000);
+var hours = date.getHours();
+var minutes = "0" + date.getMinutes();
+var seconds = "0" + date.getSeconds();
+var year = date.getFullYear();
+var month = months_arr[date.getMonth()];
+var day = date.getDate();
+var convdataTime = month+'-'+day+'-'+year+' '+hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);
+document.getElementById('datetime').innerHTML = convdataTime;
+}</script><br /><br />
+
+<script type="text/javascript">
+function doSearch15(Search15)
+{window.open('https://www.walletexplorer.com/wallet/' + Search15, 'Search15window');}
+</script>
+<form onsubmit="doSearch15(this.Search15.value); return false;">
+<input type="text" name="Search15" size="30" placeholder="Wallet ID" value="" />
+<input type="submit" style="width:120px" value="WalletExplorer" /><br /></form>
+
+<script type="text/javascript">
+function doSearch16(Search16)
+{window.open('https://blockchair.com/ethereum/address/' + Search16, 'Search16window');}
+</script>
+<form onsubmit="doSearch16(this.Search16.value); return false;">
+<input type="text" name="Search16" size="30" placeholder="Ethereum Address" value="" />
+<input type="submit" style="width:120px" value="BC Ethereum" /><br /></form>
+
+<script type="text/javascript">
+function doSearch17(Search17)
+{window.open('https://blockchair.com/bitcoin-cash/transaction/' + Search17, 'Search17window');}
+</script>
+<form onsubmit="doSearch17(this.Search17.value); return false;">
+<input type="text" name="Search17" size="30" placeholder="Bitcoin-Cash Hash" value="" />
+<input type="submit" style="width:120px" value="BC Cash" /><br /></form>
+
+<script type="text/javascript">
+function doSearch18(Search18)
+{window.open('https://blockchair.com/litecoin/address/' + Search18, 'Search18window');}
+</script>
+<form onsubmit="doSearch18(this.Search18.value); return false;">
+<input type="text" name="Search18" size="30" placeholder="Litecoin Address" value="" />
+<input type="submit" style="width:120px" value="BC Litecoin" /></form>
+
+<script type="text/javascript">
+function doSearch19(Search19)
+{window.open('https://blockchair.com/bitcoin-sv/address/' + Search19, 'Search19window');}
+</script>
+<form onsubmit="doSearch19(this.Search19.value); return false;">
+<input type="text" name="Search19" size="30" placeholder="Bitcoin-sv Address" value="" />
+<input type="submit" style="width:120px" value="BC BC-SV" /><br /></form>
+
+<script type="text/javascript">
+function doSearch20(Search20)
+{window.open('https://blockchair.com/dogecoin/address/' + Search20, 'Search20window');}
+</script>
+<form onsubmit="doSearch20(this.Search20.value); return false;">
+<input type="text" name="Search20" size="30" placeholder="Dogecoin Address" value="" />
+<input type="submit" style="width:120px" value="BC Dogecoin" /><br /></form>
+
+<script type="text/javascript">
+function doSearch21(Search21)
+{window.open('https://blockchair.com/dash/address/' + Search21, 'Search21window');}
+</script>
+<form onsubmit="doSearch21(this.Search21.value); return false;">
+<input type="text" name="Search21" size="30" placeholder="Dash Address" value="" />
+<input type="submit" style="width:120px" value="BC Dash" /><br /></form><br />
+
+<script type="text/javascript">
+function doSearch22(Search22)
+{window.open('http://codacoin.com/api/public.php?request=convert&type=btctofiat&input=' + Search22 + '&symbol=enabled&decimal=2&exchange=average&currency=USD&denom=bitcoin', 'Search22window');}
+</script>
+<form onsubmit="doSearch22(this.Search22.value); return false;">
+<input type="text" name="Search22" size="30" placeholder="Bitcoin Amount" value="" />
+<input type="submit" style="width:120px" value="BTC > USD" /><br /></form>
+
+<script type="text/javascript">
+function doSearch23(Search23)
+{window.open('http://codacoin.com/api/public.php?request=convert&type=fiattobtc&input=' + Search23 + '&symbol=enabled&decimal=2&exchange=average&currency=USD&denom=bitcoin', 'Search23window');}
+</script>
+<form onsubmit="doSearch23(this.Search23.value); return false;">
+<input type="text" name="Search23" size="30" placeholder="Dollar Amount" value="" />
+<input type="submit" style="width:120px" value="USD > BTC" /><br /></form>
+
+<script type="text/javascript">
+function doSearch24(Search24)
+{window.open('http://codacoin.com/api/public.php?request=convert&type=btctofiat&input=' + Search24 + '&symbol=enabled&decimal=2&exchange=average&currency=USD&denom=satoshi', 'Search24window');}
+</script>
+<form onsubmit="doSearch24(this.Search24.value); return false;">
+<input type="text" name="Search24" size="30" placeholder="Satoshi Amount" value="" />
+<input type="submit" style="width:120px" value="Satoshi > USD" /><br /></form>
+
+<script type="text/javascript">
+function doSearch25(Search25)
+{window.open('http://codacoin.com/api/public.php?request=convert&type=fiattobtc&input=' + Search25 + '&symbol=enabled&decimal=2&exchange=average&currency=USD&denom=satoshi', 'Search25window');}
+</script>
+<form onsubmit="doSearch25(this.Search25.value); return false;">
+<input type="text" name="Search25" size="30" placeholder="Dollar Amount" value="" />
+<input type="submit" style="width:120px" value="USD > Satoshi" /><br /></form>
+
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

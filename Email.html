@@ -1,0 +1,311 @@
+<!doctype html>
+<html>
+<style>
+ul {list-style-type: none;margin: 0;padding: 0;width: 200px;background-color: #f1f1f1;}
+li a {display: block;color: #000;padding: 8px 16px;text-decoration: none;}
+li a:hover {background-color: #555;color: white;}
+li a.active {background-color: #303942;color: white;}
+li a.grey {background-color: #cdcdcd;color: black;}
+li a.blue {background-color: #b4c8da;color: black;}
+table td, table td * {vertical-align: top;}
+</style>
+<head>
+<meta charset="UTF-8">
+<title>HOPain Email Tool</title>
+</head>
+<body>
+<table width="1000" border="0">
+<tbody>
+<tr>
+<td width="200">
+<ul>
+<li><a href="index.html" class="grey">HOPain Tools</a></li>
+<li><a href="Search.html">Search Engines</a></li>
+<li><a href="Facebook.html">Facebook</a></li>
+<li><a href="Twitter.html">Twitter</a></li>
+<li><a href="Instagram.html">Instagram</a></li>
+<li><a href="LinkedIn.html">LinkedIn</a></li>
+<li><a href="Communities.html">Communities</a></li>
+<li><a href="Email.html" class="active">Email Addresses</a></li>
+<li><a href="Username.html">Usernames</a></li>
+<li><a href="Name.html">Names</a></li>
+<li><a href="Telephone.html">Telephone Numbers</a></li>
+<li><a href="Location.html">Maps</a></li>
+<li><a href="Documents.html">Documents</a></li>
+<li><a href="Pastes.html">Pastes</a></li>
+<li><a href="Images.html">Images</a></li>
+<li><a href="Videos.html">Videos</a></li>
+<li><a href="Domain.html">Domains</a></li>
+<li><a href="IP.html">IP Addresses</a></li>
+<li><a href="Business.html">Business & Government</a></li>
+<li><a href="Currencies.html">Virtual Currencies</a></li>
+<li><a href="Breaches.html">Data Breaches & Leaks</a></li>
+<li><a href="Credit.html" class="grey">Credit</a></li>
+</ul>
+</td>
+<td width="800">
+
+  <script type="text/javascript">
+  function doPopAll(PopAll){var pop = document.getElementById("PopAll");
+  for (j = 1; j <= 100; j++){if (j < 10){j = "0" + j.toString();}
+  else {j = j.toString();}
+  console.log(j)
+  item = document.getElementById("Search" + j);
+  if (item != null){item.value = pop.value;}}}
+  </script>
+  <form onsubmit="doPopAll(this.PopAll.value); return false;">
+  <input type="text" id="PopAll" name="PopAll" size="30" placeholder="Email Address"/>
+  <input type="submit" style="width:140px" value="Populate All" /><br /></form><br>
+
+<script type="text/javascript">
+function doSearch01(Search01)
+{window.open('http://google.com/search?q="' + Search01 + '"', 'Search01window');}
+</script>
+<form onsubmit="doSearch01(this.Search01.value); return false;">
+<input type="text" id="Search01" name="Search01" size="30" placeholder="Email Address" value="" />
+<input type="submit" style="width:140px" value="Google" /><br /></form>
+
+<script type="text/javascript">
+function doSearch02(Search02)
+{window.open('http://bing.com/search?q="' + Search02 + '"', 'Search02window');}
+</script>
+<form onsubmit="doSearch02(this.Search02.value); return false;">
+<input type="text" id="Search02" name="Search02" size="30" placeholder="Email Address" value="" />
+<input type="submit" style="width:140px" value="Bing" /><br /></form>
+
+<script type="text/javascript">
+function doSearch03(Search03)
+{window.open('https://yandex.com/search/?text="' + Search03 + '"', 'Search03window');}
+</script>
+<form onsubmit="doSearch03(this.Search03.value); return false;">
+<input type="text" id="Search03" name="Search03" size="30" placeholder="Email Address" value="" />
+<input type="submit" style="width:140px" value="Yandex" /><br /></form>
+
+<script type="text/javascript">
+function doSearch04(Search04)
+{window.open('https://api.trumail.io/v2/lookups/json?email=' + Search04, 'Search04window');}
+</script>
+<form onsubmit="doSearch04(this.Search04.value); return false;">
+<input type="text" id="Search04" name="Search04" size="30" placeholder="Email Address" value="" />
+<input type="submit" style="width:140px" value="Trumail" /><br /></form>
+
+<script type="text/javascript">
+function doSearch05(Search05)
+{window.open('https://emailrep.io/query/' + Search05, 'Search05window');}
+</script>
+<form onsubmit="doSearch05(this.Search05.value); return false;">
+<input type="text" id="Search05" name="Search05" size="30" placeholder="Email Address" value="" />
+<input type="submit" style="width:140px" value="Emailrep" /><br /></form>
+
+<script type="text/javascript">
+function doSearch06(Search06)
+{window.open('https://en.gravatar.com/site/check/' + Search06, 'Search06window');}
+</script>
+<form onsubmit="doSearch06(this.Search06.value); return false;">
+<input type="text" id="Search06" name="Search06" size="30" placeholder="Email Address" value="" />
+<input type="submit" style="width:140px" value="Gravatar" /><br /></form><br />
+
+<script type="text/javascript">
+function doSearch07(Search07)
+{window.open('https://haveibeenpwned.com/unifiedsearch/' + Search07, 'Search07window');}
+</script>
+<form onsubmit="doSearch07(this.Search07.value); return false;">
+<input type="text" id="Search07" name="Search07" size="30" placeholder="Email Address"/>
+<input type="submit" style="width:140px" value="HIBP" /><br /></form>
+
+<script type="text/javascript">
+function doSearch08(Search08)
+{window.open('https://dehashed.com/search?query="' + Search08 + '"', 'Search08window');}
+</script>
+<form onsubmit="doSearch08(this.Search08.value); return false;">
+<input type="text" id="Search08" name="Search08" size="30" placeholder="Email Address" value="" />
+<input type="submit" style="width:140px" value="Dehashed" /><br /></form>
+
+<script type="text/javascript">
+function doSearch09(Search09)
+{window.open('https://portal.spycloud.com/endpoint/enriched-stats/' + Search09, 'Search09window');}
+</script>
+<form onsubmit="doSearch09(this.Search09.value); return false;">
+<input type="text" id="Search09" name="Search09" size="30" placeholder="Email Address" value="" />
+<input type="submit" style="width:140px" value="Spycloud" /><br /></form>
+
+<script type="text/javascript">
+function doSearch10(Search10)
+{window.open('https://scylla.sh/search?q=email:' + Search10, 'Search10window');}
+</script>
+<form onsubmit="doSearch10(this.Search10.value); return false;">
+<input type="text" id="Search10" name="Search10" size="30" placeholder="Email Address" value="" />
+<input type="submit" style="width:140px" value="Scylla" /><br /></form>
+
+<script type="text/javascript">
+function doSearch41(Search41)
+{window.open('https://breach.myosint.com/?email=' + Search41, 'Search41window');}
+</script>
+<form onsubmit="doSearch41(this.Search41.value); return false;">
+<input type="text" id="Search41" name="Search41" size="30" placeholder="Email Address" value="" />
+<input type="submit" style="width:140px" value="Cit0day" /><br /></form>
+
+<script type="text/javascript">
+function doSearch11(Search11)
+{window.open('https://services.normshield.com/data-breach/' + Search11, 'Search11window');}
+</script>
+<form onsubmit="doSearch11(this.Search11.value); return false;">
+<input type="text" id="Search11" name="Search11" size="30" placeholder="Email Address" value="" />
+<input type="submit" style="width:140px" value="Normshield" /><br /></form>
+
+<script type="text/javascript">
+function doSearch12(Search12)
+{window.open('https://check.cybernews.com/chk/?lang=en_US&e=' + Search12, 'Search12window');}
+</script>
+<form onsubmit="doSearch12(this.Search12.value); return false;">
+<input type="text" id="Search12" name="Search12" size="30" placeholder="Email Address" value="" />
+<input type="submit" style="width:140px" value="Cybernews" /><br /></form>
+
+<script type="text/javascript">
+function doSearch13(Search13)
+{window.open('https://psbdmp.ws/api/search/' + Search13, 'Search13window');}
+</script>
+<form onsubmit="doSearch13(this.Search13.value); return false;">
+<input type="text" id="Search13" name="Search13" size="30" placeholder="Email Address" value="" />
+<input type="submit" style="width:140px" value="PSBDMP" /><br /></form>
+
+<script type="text/javascript">
+function doSearch14(Search14)
+{window.open('https://intelx.io/?s=' + Search14, 'Search14window');}
+</script>
+<form onsubmit="doSearch14(this.Search14.value); return false;">
+<input type="text" id="Search14" name="Search14" size="30" placeholder="Email Address" value="" />
+<input type="submit" style="width:140px" value="IntelX" /><br /></form>
+
+<script type="text/javascript">
+function doSearch15(Search15)
+{var f = document.getElementById('leakedSourceEmailForm');
+	f.search.value=Search15;
+	window.open('', 'Search15window');
+	f.submit();}
+</script>
+<form onsubmit="doSearch15(this.Search15.value); return false;">
+<input type="text" id="Search15" name="Search15" size="30" placeholder="Email Address" value="" />
+<input type="submit" style="width:140px" value="LeakedSource" /></form>
+<form id="leakedSourceEmailForm" method="post" action="https://leakedsource.ru/" target="Search15window">
+<input type="hidden" id="search" name="search" value="">
+<input type="hidden" name="searchType" value="email">
+<input type="hidden" name="wildcard" value="0">
+<input type="submit" id="searchsubmit" style="visibility: hidden;" value="Search"></form>
+
+<script type="text/javascript">
+function doSearch16(Search16)
+{window.open('https://hunter.io/email-verifier/' + Search16, 'Search16window');}
+</script>
+<form onsubmit="doSearch16(this.Search16.value); return false;">
+<input type="text" id="Search16" name="Search16" size="30" placeholder="Email Address" value="" />
+<input type="submit" style="width:140px" value="HunterVerify" /><br /></form>
+
+<script type="text/javascript">
+function doSearch17(Search17)
+{window.open('https://data.occrp.org/search?q=' + Search17, 'Search17window');}
+</script>
+<form onsubmit="doSearch17(this.Search17.value); return false;">
+<input type="text" id="Search17" name="Search17" size="30" placeholder="Email Address" value="" />
+<input type="submit" style="width:140px" value="OCCRP" /><br /></form>
+
+<script type="text/javascript">
+function doSearch18(Search18)
+{window.open('https://www.searchmy.bio/search?q=' + Search18, 'Search18window');}
+</script>
+<form onsubmit="doSearch18(this.Search18.value); return false;">
+<input type="text" id="Search18" name="Search18" size="30" placeholder="Email Address" value="" />
+<input type="submit" style="width:140px" value="SearchMyBio" /><br /></form>
+
+<script type="text/javascript">
+function doSearch19(Search19)
+{window.open('https://www.spytox.com/people/search?email=' + Search19, 'Search19window');}
+</script>
+<form onsubmit="doSearch19(this.Search19.value); return false;">
+<input type="text" id="Search19" name="Search19" size="30" placeholder="Email Address" value="" />
+<input type="submit" style="width:140px" value="SpyTox" /><br /></form>
+
+<script type="text/javascript">
+function doSearch20(Search20)
+{window.open('https://thatsthem.com/email/' + Search20, 'Search20window');}
+</script>
+<form onsubmit="doSearch20(this.Search204.value); return false;">
+<input type="text" id="Search20" name="Search20" size="30" placeholder="Email Address" value="" />
+<input type="submit" style="width:140px" value="ThatsThem" /><br /></form>
+
+<script type="text/javascript">
+function doSearch21(Search21)
+{window.open('https://api.protonmail.ch/pks/lookup?op=get&search=' + Search21, 'Search21window');}
+</script>
+<form onsubmit="doSearch21(this.Search21.value); return false;">
+<input type="text" id="Search21" name="Search21" size="30" placeholder="Email Address" value="" />
+<input type="submit" style="width:140px" value="Protonmail" /><br /></form>
+
+<script type="text/javascript">
+function doSearch22(Search22)
+{window.open('http://domainbigdata.com/email/' + Search22, 'Search22window');}
+</script>
+<form onsubmit="doSearch22(this.Search22.value); return false;">
+<input type="text" id="Search22" name="Search22" size="30" placeholder="Email Address" value="" />
+<input type="submit" style="width:140px" value="DomainData" /><br /></form>
+
+<script type="text/javascript">
+function doSearch23(Search23)
+{window.open('https://whoisology.com/email/' + Search23, 'Search23window');}
+</script>
+<form onsubmit="doSearch23(this.Search23.value); return false;">
+<input type="text" id="Search23" name="Search23" size="30" placeholder="Email Address" value="" />
+<input type="submit" style="width:140px" value="Whoisology" /><br /></form>
+
+<script type="text/javascript">
+function doSearch24(Search24)
+{window.open('http://analyzeid.com/?email=' + Search24, 'Search24window');}
+</script>
+<form onsubmit="doSearch24(this.Search24.value); return false;">
+<input type="text" id="Search24" name="Search24" size="30" placeholder="Email Address" value="" />
+<input type="submit" style="width:140px" value="AnalyzeID" /><br /></form><br />
+
+<script type="text/javascript">
+function doall(all){
+window.open('http://google.com/search?q="' + all + '"', 'Search01window');
+window.open('http://bing.com/search?q="' + all + '"', 'Search02window');
+window.open('https://yandex.com/search/?text="' + all + '"', 'Search03window');
+window.open('https://api.trumail.io/v2/lookups/json?email=' + all, 'Search04window');
+window.open('https://emailrep.io/query/' + all, 'Search05window');
+window.open('https://en.gravatar.com/site/check/' + all, 'Search06window');
+window.open('https://haveibeenpwned.com/unifiedsearch/' + all, 'Search07window');
+window.open('https://dehashed.com/search?query="' + all + '"', 'Search08window');
+window.open('https://portal.spycloud.com/endpoint/enriched-stats/' + all, 'Search09window');
+window.open('https://scylla.sh/search?q=email:' + all, 'Search10window');
+window.open('https://breach.myosint.com/?email=' + all, 'Search41window');
+window.open('https://services.normshield.com/data-breach/' + all, 'Search11window');
+window.open('https://check.cybernews.com/chk/?lang=en_US&e=' + all, 'Search12window');
+window.open('https://psbdmp.ws/api/search/' + all, 'Search14window');
+window.open('https://intelx.io/?s=' + all, 'Search14window');
+window.open('https://hunter.io/email-verifier/' + all, 'Search15window');
+window.open('https://data.occrp.org/search?q=' + all, 'Search16window');
+window.open('https://www.searchmy.bio/search?q=' + all, 'Search17window');
+window.open('https://www.spytox.com/people/search?email=' + all, 'Search18window');
+window.open('https://thatsthem.com/email/' + all, 'Search19window');
+window.open('http://domainbigdata.com/email/' + all, 'Search21window');
+window.open('https://whoisology.com/email/' + all, 'Search22window');
+window.open('http://analyzeid.com/?email=' + all, 'Search23window');
+}
+</script>
+ <form onsubmit="doall(this.all.value); return false;">
+ <input type="text" id="Search99" name="all" size="30" placeholder="Email Address" value="" />
+ <input type="submit" style="width:140px" value="Submit All" />
+ </form><br />
+
+<script type="text/javascript">
+function doSearch25(Search25)
+{window.open('https://api.peopledatalabs.com/v5/person/enrich?pretty=true&api_key=XXXX&email=' + Search25, 'Search25window');}
+</script>
+<form onsubmit="doSearch25(this.Search25.value); return false;">
+<input type="text" id="Search25" name="Search25" size="30" placeholder="Email Address (Requires API Key)" value="" />
+<input type="submit" style="width:140px" value="PeopleDataLabs" /><br /></form><br />
+
+</td>
+</tr>
+</tbody>
+</table></body></html>

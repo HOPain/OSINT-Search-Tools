@@ -1,0 +1,492 @@
+<!doctype html>
+<html>
+<style>
+ul {  list-style-type: none;margin: 0;padding: 0;width: 200px;background-color: #f1f1f1;}
+li a {display: block;color: #000;padding: 8px 16px;text-decoration: none;}
+li a:hover {background-color: #555;color: white;}
+li a.active {background-color: #303942;color: white;}
+li a.grey {background-color: #cdcdcd;color: black;}
+li a.blue {background-color: #b4c8da;color: black;}
+table td, table td * {vertical-align: top;}
+</style>
+
+<head>
+<meta charset="UTF-8">
+<title>HOPain Communities Tool</title>
+</head>
+<body>
+<table width="1000" border="0">
+<tbody>
+<tr>
+<td width="200">
+<ul>
+<li><a href="index.html" class="grey">HOPain Tools</a></li>
+<li><a href="Search.html">Search Engines</a></li>
+<li><a href="Facebook.html">Facebook</a></li>
+<li><a href="Twitter.html">Twitter</a></li>
+<li><a href="Instagram.html">Instagram</a></li>
+<li><a href="LinkedIn.html">LinkedIn</a></li>
+<li><a href="Communities.html" class="active">Communities</a></li>
+<li><a href="Email.html">Email Addresses</a></li>
+<li><a href="Username.html">Usernames</a></li>
+<li><a href="Name.html">Names</a></li>
+<li><a href="Telephone.html">Telephone Numbers</a></li>
+<li><a href="Location.html">Maps</a></li>
+<li><a href="Documents.html">Documents</a></li>
+<li><a href="Pastes.html">Pastes</a></li>
+<li><a href="Images.html">Images</a></li>
+<li><a href="Videos.html">Videos</a></li>
+<li><a href="Domain.html">Domains</a></li>
+<li><a href="IP.html">IP Addresses</a></li>
+<li><a href="Business.html">Business & Government</a></li>
+<li><a href="Currencies.html">Virtual Currencies</a></li>
+<li><a href="Breaches.html">Data Breaches & Leaks</a></li>
+<li><a href="Credit.html" class="grey">Credit</a></li>
+</ul>
+</td>
+<td width="800">
+Reddit:
+<script type="text/javascript">
+function doSearch01(Search01)
+{window.open('https://www.reddit.com/search?q=' + Search01, 'Search01window');}
+</script>
+<form onsubmit="doSearch01(this.Search01.value); return false;">
+<input type="text" name="Search01" size="30" placeholder="Search Terms"/>
+<input type="submit" style="width:140px" value="Keyword Search" /><br /></form>
+
+<script type="text/javascript">
+function doSearch02(Search02)
+{window.open('https://www.reddit.com/search?q=title:' + Search02, 'Search02window');}
+</script>
+<form onsubmit="doSearch02(this.Search02.value); return false;">
+<input type="text" name="Search02" size="30" placeholder="Search Terms" value="" />
+<input type="submit" style="width:140px" value="Title Search" /><br /></form>
+
+<script type="text/javascript">
+function doSearch03(Search03)
+{window.open('https://www.reddit.com/user/' + Search03, 'Search03window');}
+</script>
+<form onsubmit="doSearch03(this.Search03.value); return false;">
+<input type="text" name="Search03" size="30" placeholder="Username" value="" />
+<input type="submit" style="width:140px" value="User Profile" /><br /></form>
+
+<script type="text/javascript">
+function doSearch03a(Search03a)
+{window.open('https://www.reddit.com/user/' + Search03a + '/posts/', 'Search03awindow');}
+</script>
+<form onsubmit="doSearch03a(this.Search03a.value); return false;">
+<input type="text" name="Search03a" size="30" placeholder="Username" value="" />
+<input type="submit" style="width:140px" value="User Posts" /><br /></form>
+
+<script type="text/javascript">
+function doSearch03b(Search03b)
+{window.open('https://www.reddit.com/user/' + Search03b + '/comments/', 'Search03bwindow');}
+</script>
+<form onsubmit="doSearch03b(this.Search03b.value); return false;">
+<input type="text" name="Search03b" size="30" placeholder="Username" value="" />
+<input type="submit" style="width:140px" value="User Comments" /><br /></form>
+
+<script type="text/javascript">
+function doSearch04(Search04)
+{window.open('https://web.archive.org/web/*/https://www.reddit.com/user/' + Search04, 'Search04window');}
+</script>
+<form onsubmit="doSearch04(this.Search04.value); return false;">
+<input type="text" name="Search04" size="30" placeholder="Username" value="" />
+<input type="submit" style="width:140px" value="User Archive I" /><br /></form>
+
+<script type="text/javascript">
+function doSearch06(Search06)
+{window.open('https://webcache.googleusercontent.com/search?q=cache:https://www.reddit.com/user/' + Search06, 'Search06window');}
+</script>
+<form onsubmit="doSearch06(this.Search06.value); return false;">
+<input type="text" name="Search06" size="30" placeholder="Username" value="" />
+<input type="submit" style="width:140px" value="User Archive II" /><br /></form>
+
+<script type="text/javascript">
+function doSearch07(Search07)
+{window.open('https://api.pushshift.io/reddit/search/comment/?author=' + Search07 + '&sort=asc&size=1000', 'Search07window');}
+</script>
+<form onsubmit="doSearch07(this.Search07.value); return false;">
+<input type="text" name="Search07" size="30" placeholder="Username" value="" />
+<input type="submit" style="width:140px" value="Pushshift User I" /><br />
+</form>
+
+<script type="text/javascript">
+function doSearch08(Search08)
+{window.open('https://api.pushshift.io/reddit/search/comment/?author=' + Search08, 'Search08window');}
+</script>
+<form onsubmit="doSearch08(this.Search08.value); return false;">
+<input type="text" name="Search08" size="30" placeholder="Username" value="" />
+<input type="submit" style="width:140px" value="Pushshift User II" /><br /></form>
+
+<script type="text/javascript">
+function doSearch09(Search09)
+{window.open('https://api.pushshift.io/reddit/search/comment/?q=' + Search09, 'Search09window');}
+</script>
+<form onsubmit="doSearch09(this.Search09.value); return false;">
+<input type="text" name="Search09" size="30" placeholder="Search Terms" value="" />
+<input type="submit" style="width:140px" value="Pushshift Comments" /><br /></form>
+
+<script type="text/javascript">
+function doSearch10(Search10)
+{window.open('https://api.pushshift.io/reddit/search/submission/?q=' + Search10, 'Search10window');}
+</script>
+<form onsubmit="doSearch10(this.Search10.value); return false;">
+<input type="text" name="Search10" size="30" placeholder="Search Terms" value="" />
+<input type="submit" style="width:140px" value="Pushshift Posts" /><br /></form>
+
+<script type="text/javascript">
+function doSearch11(Search11)
+{window.open('https://www.reddit.com/search?q=site:' + Search11, 'Search11window');}
+</script>
+<form onsubmit="doSearch11(this.Search11.value); return false;">
+<input type="text" name="Search11" size="30" placeholder="Domain" value="" />
+<input type="submit" style="width:140px" value="Domain Search" /><br /></form>
+
+<script type="text/javascript">
+function doSearch12(Search12)
+{window.open('http://redstatz.com/report/' + Search12, 'Search12window');}
+</script>
+<form onsubmit="doSearch12(this.Search12.value); return false;">
+<input type="text" name="Search12" size="30" placeholder="Domain" value="" />
+<input type="submit" style="width:140px" value="Domain Report" /><br /></form>
+
+<script type="text/javascript">
+function doSearch13(Search13)
+{window.open('https://www.reddit.com/subreddits/search?q=' + Search13, 'Search13window');}
+</script>
+<form onsubmit="doSearch13(this.Search13.value); return false;">
+<input type="text" name="Search13" size="30" placeholder="Search Terms" value="" />
+<input type="submit" style="width:140px" value="SubReddit Search" /><br /></form>
+
+<script type="text/javascript">
+function doSearch14(Search14)
+{window.open('https://imgur.com/r/' + Search14, 'Search14window');}
+</script>
+<form onsubmit="doSearch14(this.Search14.value); return false;">
+<input type="text" name="Search14" size="30" placeholder="SubReddit Name" value="" />
+<input type="submit" style="width:140px" value="Imgur Search" /><br /></form>
+
+<script type="text/javascript">
+function doSearch15(Search15)
+{window.open('http://i.rarchives.com/?url=' + Search15, 'Search15window');}
+</script>
+<form onsubmit="doSearch15(this.Search15.value); return false;">
+<input type="text" name="Search15" size="30" placeholder="URL" value="" />
+<input type="submit" style="width:140px" value="Image Search" /><br /></form>
+
+<br>Hacker News (YCombinator):
+<script type="text/javascript">
+function doSearch16(Search16)
+{window.open('https://hn.algolia.com/?query=' + Search16 + '&sort=byDate&prefix&page=0&dateRange=all&type=all', 'Search16window');}
+</script>
+<form onsubmit="doSearch16(this.Search16.value); return false;">
+<input type="text" name="Search16" size="30" placeholder="Search Terms" value="" />
+<input type="submit" style="width:140px" value="Keyword Search" /><br /></form>
+
+<script type="text/javascript">
+function doSearch17(Search17)
+{window.open('https://news.ycombinator.com/user?id=' + Search17, 'Search17window');}
+</script>
+<form onsubmit="doSearch17(this.Search17.value); return false;">
+<input type="text" name="Search17" size="30" placeholder="Username" value="" />
+<input type="submit" style="width:140px" value="User Search" /><br /></form>
+
+<script type="text/javascript">
+function doSearch18(Search18)
+{window.open('https://news.ycombinator.com/submitted?id=' + Search18, 'Search18window');}
+</script>
+<form onsubmit="doSearch18(this.Search18.value); return false;">
+<input type="text" name="Search18" size="30" placeholder="Username" value="" />
+<input type="submit" style="width:140px" value="User Posts" /><br /></form>
+
+<script type="text/javascript">
+function doSearch19(Search19)
+{window.open('https://news.ycombinator.com/threads?id=' + Search19, 'Search19window');}
+</script>
+<form onsubmit="doSearch19(this.Search19.value); return false;">
+<input type="text" name="Search19" size="30" placeholder="Username" value="" />
+<input type="submit" style="width:140px" value="User Comments" /><br /></form>
+
+<script type="text/javascript">
+function doSearch20(Search20)
+{window.open('https://news.ycombinator.com/favorites?id=' + Search20, 'Search20window');}
+</script>
+<form onsubmit="doSearch20(this.Search20.value); return false;">
+<input type="text" name="Search20" size="30" placeholder="Username" value="" />
+<input type="submit" style="width:140px" value="Favorites" /><br /></form>
+
+<script type="text/javascript">
+function doSearch21(Search21)
+{window.open('https://www.google.com/search?q=site:news.ycombinator.com+' + Search21, 'Search21window');}
+</script>
+<form onsubmit="doSearch21(this.Search21.value); return false;">
+<input type="text" name="Search21" size="30" placeholder="Search Terms" value="" />
+<input type="submit" style="width:140px" value="Google Search" /><br /></form>
+
+<br>Voat:<br>
+
+<script type="text/javascript">
+function doSearch22(Search22)
+{window.open('https://searchvoat.co/?t=' + Search22 + '&s=&u=&d=&b=on&nsfw=on', 'Search22window');}
+</script>
+<form onsubmit="doSearch22(this.Search22.value); return false;">
+<input type="text" name="Search22" size="30" placeholder="Search Terms" value="" />
+<input type="submit" style="width:140px" value="Keyword Search" /><br /></form>
+
+<script type="text/javascript">
+function doSearch23(Search23)
+{window.open('https://searchvoat.co/?t=&s=&u=' + Search23 + '&d=&b=on&nsfw=on', 'Search23window');}
+</script>
+<form onsubmit="doSearch23(this.Search23.value); return false;">
+<input type="text" name="Search23" size="30" placeholder="Username" value="" />
+<input type="submit" style="width:140px" value="User Search" /><br /></form>
+
+<script type="text/javascript">
+function doSearch24(Search24)
+{window.open('https://searchvoat.co/?s=&u=&d=' + Search24 + '&b=on&nsfw=on', 'Search24window');}
+</script>
+<form onsubmit="doSearch24(this.Search24.value); return false;">
+<input type="text" name="Search24" size="30" placeholder="Domain" value="" />
+<input type="submit" style="width:140px" value="Domain Search" /><br /></form>
+
+<br>4Chan:<br>
+
+<script type="text/javascript">
+function doSearch25(Search25)
+{window.open('http://4chansearch.com/?q=' + Search25 + '&s=4', 'Search25window');}
+</script>
+<form onsubmit="doSearch25(this.Search25.value); return false;">
+<input type="text" name="Search25" size="30" placeholder="Search Terms" value="" />
+<input type="submit" style="width:140px" value="Keyword Search" /><br /></form>
+
+<script type="text/javascript">
+function doSearch26(Search26)
+{window.open('http://4chansearch.com/?q=' + Search26 + '&s=7', 'Search26window');}
+</script>
+<form onsubmit="doSearch26(this.Search26.value); return false;">
+<input type="text" name="Search26" size="30" placeholder="Search Terms" value="" />
+<input type="submit" style="width:140px" value="Archive Search I" /><br /></form>
+
+<script type="text/javascript">
+function doSearch27(Search27)
+{window.open('https://archive.4plebs.org/_/search/text/' + Search27 + '/order/asc/', 'Search27window');}
+</script>
+<form onsubmit="doSearch27(this.Search27.value); return false;">
+<input type="text" name="Search27" size="30" placeholder="Search Terms" value="" />
+<input type="submit" style="width:140px" value="Archive Search II" /><br /></form>
+
+<script type="text/javascript">
+function doSearch28(Search28)
+{window.open('https://www.google.com/search?q=site:4chan.org ' + Search28, 'Search28window');}
+</script>
+<form onsubmit="doSearch28(this.Search28.value); return false;">
+<input type="text" name="Search28" size="30" placeholder="Search Terms" value="" />
+<input type="submit" style="width:140px" value="Google Search" /><br /></form>
+
+<br>TikTok:<br>
+
+<script type="text/javascript">
+function doSearch28a(Search28a)
+{window.open('https://www.tiktok.com/@' + Search28a, 'Search2a8window');}
+</script>
+<form onsubmit="doSearch28a(this.Search28a.value); return false;">
+<input type="text" name="Search28a" size="30" placeholder="Username" value="" />
+<input type="submit" style="width:140px" value="Profile" /><br /></form>
+
+<script type="text/javascript">
+function doSearch28b(Search28b)
+{window.open('https://www.tiktok.com/tag/' + Search28b, 'Search28bwindow');}
+</script>
+<form onsubmit="doSearch28b(this.Search28b.value); return false;">
+<input type="text" name="Search28b" size="30" placeholder="Keyword" value="" />
+<input type="submit" style="width:140px" value="Tag" /><br /></form>
+
+<script type="text/javascript">
+function doSearch28c(Search28c)
+{window.open('https://www.google.com/search?q=site:tiktok.com+' + Search28c, 'Search28cwindow');}
+</script>
+<form onsubmit="doSearch28c(this.Search28c.value); return false;">
+<input type="text" name="Search28c" size="30" placeholder="Search Terms" value="" />
+<input type="submit" style="width:140px" value="Google Search" /><br /></form>
+
+<br />Meetup:<br />
+
+<script type="text/javascript">
+function doSearch38(Search38)
+{window.open('https://www.google.com/search?q=site:meetup.com+inurl:member+' + Search38, 'Search38window');}
+</script>
+<form onsubmit="doSearch38(this.Search38.value); return false;">
+<input type="text" name="Search38" size="30" placeholder="User Name" value="" />
+<input type="submit" style="width:140px" value="Member Search" /><br /></form>
+
+<script type="text/javascript">
+function doSearch39(Search39)
+{window.open('https://www.google.com/search?q=site:meetup.com+inurl:events+' + Search39, 'Search39window');}
+</script>
+<form onsubmit="doSearch39(this.Search39.value); return false;">
+<input type="text" name="Search39" size="30" placeholder="Keywords" value="" />
+<input type="submit" style="width:140px" value="Event Search" /><br /></form>
+
+<script type="text/javascript">
+function doSearch40(Search40)
+{window.open('https://www.google.com/search?q=site:meetup.com+inurl:discussions+' + Search40, 'Search40window');}
+</script>
+<form onsubmit="doSearch40(this.Search40.value); return false;">
+<input type="text" name="Search40" size="30" placeholder="Keywords" value="" />
+<input type="submit" style="width:140px" value="Post Search" /><br /></form>
+
+<script type="text/javascript">
+function doSearch42(Search42)
+{window.open('https://www.google.com/search?q=site:meetup.com+' + Search42, 'Search42window');}
+</script>
+<form onsubmit="doSearch42(this.Search42.value); return false;">
+<input type="text" name="Search42" size="30" placeholder="Keywords, location, or Name" value="" />
+<input type="submit" style="width:140px" value="Google Search" /><br /></form>
+
+<br>Ebay:<br>
+
+<script type="text/javascript">
+function doSearch29(Search29)
+{window.open('https://www.ebay.com/dsc/i.html?&LH_TitleDesc=1&_nkw=' + Search29, 'Search29window');}
+</script>
+<form onsubmit="doSearch29(this.Search29.value); return false;">
+<input type="text" name="Search29" size="30" placeholder="Keywords" value="" />
+<input type="submit" style="width:140px" value="Text Search" /><br /></form>
+
+<script type="text/javascript">
+function doSearch30(Search30)
+{window.open('https://www.ebay.com/sch/i.html?_from=R40&_nkw=' + Search30 + '&LH_Sold=1&LH_Complete=1', 'Search30window');}
+</script>
+<form onsubmit="doSearch30(this.Search30.value); return false;">
+<input type="text" name="Search30" size="30" placeholder="Keywords" value="" />
+<input type="submit" style="width:140px" value="Sold Search" /><br /></form>
+
+<script type="text/javascript">
+function doSearch31(Search31)
+{window.open('https://www.ebay.com/sch/i.html?_from=R40&_nkw=' + Search31 + '&LH_Complete=1', 'Search31window');}
+</script>
+<form onsubmit="doSearch31(this.Search31.value); return false;">
+<input type="text" name="Search31" size="30" placeholder="Keywords" value="" />
+<input type="submit" style="width:140px" value="Completed Search" /><br /></form>
+
+<script type="text/javascript">
+function doSearch32(Search32)
+{window.open('https://www.ebay.com/usr/' + Search32, 'Search32window');}
+</script>
+<form onsubmit="doSearch32(this.Search32.value); return false;">
+<input type="text" name="Search32" size="30" placeholder="User Name" value="" />
+<input type="submit" style="width:140px" value="User Account" /><br /></form>
+
+<script type="text/javascript">
+function doSearch33(Search33)
+{window.open('https://feedback.ebay.com/ws/eBayISAPI.dll?ViewFeedback2&userid=' + Search33, 'Search33window');}
+</script>
+<form onsubmit="doSearch33(this.Search33.value); return false;">
+<input type="text" name="Search33" size="30" placeholder="User Name" value="" />
+<input type="submit" style="width:140px" value="User Feedback" /><br /></form>
+
+<script type="text/javascript">
+function doSearch34(Search34)
+{window.open('https://www.ebay.com/sch/' + Search34 + '/m.html', 'Search34window');}
+</script>
+<form onsubmit="doSearch34(this.Search34.value); return false;">
+<input type="text" name="Search34" size="30" placeholder="User Name" value="" />
+<input type="submit" style="width:140px" value="User Items" /><br /></form>
+
+<script type="text/javascript">
+function doSearch35(Search35)
+{window.open('http://www.ebay.com/sch/member/?_frompage=findamember&_userid=' + Search35, 'Search35window');}
+</script>
+<form onsubmit="doSearch35(this.Search35.value); return false;">
+<input type="text" name="Search35" size="30" placeholder="Full or Partial User Name" value="" />
+<input type="submit" style="width:140px" value="User Search" /><br /></form>
+
+<script type="text/javascript">
+function doSearch36(Search36)
+{window.open('https://www.ebay.com/usr/' + Search36 + '/followers#followers', 'Search36window');}
+</script>
+<form onsubmit="doSearch36(this.Search36.value); return false;">
+<input type="text" name="Search36" size="30" placeholder="User Name" value="" />
+<input type="submit" style="width:140px" value="User Followers" /><br /></form>
+
+<script type="text/javascript">
+function doSearch37(Search37)
+{window.open('https://www.ebay.com/usr/' + Search37 + '/all-follows?priflwtype=people#people', 'Search37window');}
+</script>
+<form onsubmit="doSearch37(this.Search37.value); return false;">
+<input type="text" name="Search37" size="30" placeholder="User Name" value="" />
+	<input type="submit" style="width:140px" value="User Following" /><br /></form>
+
+<br />Pinterest:<br />
+
+<script type="text/javascript">
+function doSearch43(Search43)
+{window.open('https://www.pinterest.com/' + Search43, 'Search43window');}
+</script>
+<form onsubmit="doSearch43(this.Search43.value); return false;">
+<input type="text" name="Search43" size="30" placeholder="User Name" value="" />
+<input type="submit" style="width:140px" value="User Search" /><br /></form>
+
+<script type="text/javascript">
+function doSearch44(Search44)
+{window.open('https://www.pinterest.com/' + Search44 + '/pins/', 'Search44window');}
+</script>
+<form onsubmit="doSearch44(this.Search44.value); return false;">
+<input type="text" name="Search44" size="30" placeholder="User Name" value="" />
+<input type="submit" style="width:140px" value="User Pins" /><br /></form>
+
+<script type="text/javascript">
+function doSearch45(Search45)
+{window.open('https://www.pinterest.com/' + Search45 + '/boards/', 'Search45window');}
+</script>
+<form onsubmit="doSearch45(this.Search45.value); return false;">
+<input type="text" name="Search45" size="30" placeholder="User Name" value="" />
+<input type="submit" style="width:140px" value="User Boards" /><br /></form>
+
+<script type="text/javascript">
+function doSearch46(Search46)
+{window.open('https://www.pinterest.com/' + Search46 + '/followers/', 'Search46window');}
+</script>
+<form onsubmit="doSearch46(this.Search46.value); return false;">
+<input type="text" name="Search46" size="30" placeholder="User Name" value="" />
+<input type="submit" style="width:140px" value="User Followers" /><br /></form>
+
+<script type="text/javascript">
+function doSearch47(Search47)
+{window.open('https://www.pinterest.com/' + Search47 + '/following/', 'Search47window');}
+</script>
+<form onsubmit="doSearch47(this.Search47.value); return false;">
+<input type="text" name="Search47" size="30" placeholder="User Name" value="" />
+<input type="submit" style="width:140px" value="User Following" /><br /></form>
+
+<script type="text/javascript">
+function doSearch48(Search48)
+{window.open('https://www.pinterest.com/search/pins/?q=' + Search48 + '&rs=typo_auto_original&auto_correction_disabled=true', 'Search48window');}
+</script>
+<form onsubmit="doSearch48(this.Search48.value); return false;">
+<input type="text" name="Search48" size="30" placeholder="Keywords or Name" value="" />
+<input type="submit" style="width:140px" value="Pins Search" /><br /></form>
+
+<script type="text/javascript">
+function doSearch49(Search49)
+{window.open('https://www.pinterest.com/search/boards/?q=' + Search49 + '&rs=typo_auto_original&auto_correction_disabled=true', 'Search49window');}
+</script>
+<form onsubmit="doSearch49(this.Search49.value); return false;">
+<input type="text" name="Search49" size="30" placeholder="Keywords or Name" value="" />
+<input type="submit" style="width:140px" value="Boards Search" /><br /></form>
+
+<script type="text/javascript">
+function doSearch50(Search50)
+{window.open('https://www.google.com/search?q=site:pinterest.com+' + Search50, 'Search50window');}
+</script>
+<form onsubmit="doSearch50(this.Search50.value); return false;">
+<input type="text" name="Search50" size="30" placeholder="Keywords or Name" value="" />
+<input type="submit" style="width:140px" value="Google Search" /><br /></form>
+
+	</td>
+	</tr>
+</tbody>
+</table>
+</body>
+</html>
